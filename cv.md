@@ -15,6 +15,14 @@ __Telegram__: [alexander_bychyk](https://t.me/alexander_bychyk)
 
 ***
 
+## About me
+
+I want to be a part of IT community. I think it will be interesting and funny.
+
+I didn't finish any courses because I learn what I want. There was time when I wanted to create a computer games. So I started learn unity and c#. It didn't finished well because I didn't know what kind of game I want to create. But it was fun!
+
+***
+
 ## Basic known skills
 
 * HTML
