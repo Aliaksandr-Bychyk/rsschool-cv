@@ -89,3 +89,9 @@ namespace lab9{
 ## Experience
 
 I don't have any experience at working on a company. I works only on my own projects.
+
+***
+
+## Aducation
+
+__University__: Brest State A.S. Pushkin University
