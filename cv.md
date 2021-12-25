@@ -95,3 +95,9 @@ I don't have any experience at working on a company. I works only on my own proj
 ## Aducation
 
 __University__: Brest State A.S. Pushkin University
+
+***
+
+## English
+
+I think it will be __A2__. I reads documentation on *English*, watches movies, serials and education tutorials on *English*. Also I can speak on it, so I think it must be __A2__.
