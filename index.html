@@ -8,9 +8,165 @@
     <title>A. Bychyk</title>
   </head>
   <body>
-    <header>
-      <img class="photo" src="images/photo.jpg" alt="photo" height="100%" width="100%">
-      <h1>ALIAKSANDR BYCHYK</h1>
+    <header class="header-bar">
+      <img class="header-photo" src="images/photo.jpg" alt="photo" height="100%" width="100%">
+      <h1 class="header-title">ALIAKSANDR BYCHYK</h1>
     </header>
+    <div class="page-container">
+      <nav class="navigation-bar">
+        <h2>Navigation</h2>
+        <hr>
+        <ul>
+          <li>
+            <a href="#about_me">About me</a>
+          </li>
+          <li>
+            <a href="#aducation">Aducation</a>
+          </li>
+          <li>
+            <a href="#english">English</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#code">Code</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+        </ul>
+        <h2>Contacts</h2>
+        <hr>
+        <ul class="contacts-list">
+          <li>
+            <span>Email:</span><br>
+            <a href="mailto:sanya55bychyk@gmail.com" title="sanya55bychyk@gmail.com">sanya55bychyk@gmail.com</a>
+          </li>
+          <li>
+            <span>Telegram:</span><br>
+            <a href="https://t.me/alexander_bychyk" title="@alexander_bychyk">@alexander_bychyk</a>
+          </li>
+          <li>
+            <span>GitHub:</span><br>
+            <a href="https://github.com/AlexanderBychyk" title="AlexanderBychyk">AlexanderBychyk</a>
+          </li>
+          <li>
+            <span>Discord:</span>
+            <span>AmazingSanya#7830</span>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <section>
+          <h2 id="about_me">About me</h2>
+          <hr>
+          <p>I want to be a part of IT community. I think it will be interesting and funny.</p>
+          <p>I didn't finish any courses because I learn what I want. There was time when I wanted to create a computer games. So I started learn unity and c#. It didn't finished well because I didn't know what kind of game I want to create. But it was fun!</p>
+        </section>
+        <section>
+          <h2 id="aducation">Aducation</h2>
+          <hr>
+          <p><b>University:</b> Brest State A.S. Pushkin University</p>
+        </section>
+        <section>
+          <h2 id="english">English</h2>
+          <hr>
+          <p>I think it will be <b>A2</b>. I reads documentation on <i>English</i>, watches movies, serials and education tutorials on <i>English</i>. Also I can speak on it, so I think it must be <b>A2</b>.</p>
+        </section>
+        <section>
+          <h2 id="skills">Basic known skills</h2>
+          <hr>
+          <ul>
+            <li>
+              <span>HTML</span>
+            </li>
+            <li>
+              <span>CSS/SASS</span>
+            </li>
+            <li>
+              <span>JavaScript</span>
+            </li>
+            <li>
+              <span>Pascal</span>
+            </li>
+            <li>
+              <span>C#</span>
+            </li>
+            <li>
+              <span>React</span>
+            </li>
+            <li>
+              <span>GitHub</span>
+            </li>
+            <li>
+              <span>Visual Studio Code</span>
+            </li>
+            <li>
+              <span>NPM</span>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="code">C# code example</h2>
+          <hr>
+          <code>
+using System;
+  
+namespace lab9{
+  class Program{
+    static void Main(string[] args){
+      Console.Write("Дан прямоугольный массив A[1..N, 1..M].\nВведитче целое число N: ");
+      int numbN = int.Parse(Console.ReadLine());
+      Console.Write("Введите число M: ");
+      int numbM = int.Parse(Console.ReadLine());
+      Console.WriteLine("Введите диапозон [a..b]: ");
+      Console.Write("Введите a: ");
+      int randDown = int.Parse(Console.ReadLine());
+      Console.Write("Введите b: ");
+      int randUp = int.Parse(Console.ReadLine());
+    
+      int[,] arrayA = new int[numbN, numbM];
+      int[] arrayB = new int[numbN];
+    
+      Console.WriteLine("A[1..{0}, 1..{1}]: ", numbN, numbM);
+      Random randomGen = new Random();
+      for (int i = 0; i<=numbN-1; i++){
+        for (int j = 0; j<=numbM-1; j++){
+          arrayA[i,j] = randomGen.Next(randDown,randUp);
+          Console.Write("[{0}]", arrayA[i,j]);
+        }
+        for (int j = 0; j<=numbM-1; j++){
+          for (int k = j+1; k<=numbM-1; k++){
+            if (arrayA[i,j] == arrayA[i,k]) {
+              Console.Write(":+:");
+              arrayB[i]=i+1;
+            }
+          }
+        }
+        Console.WriteLine();
+      }
+    
+      Console.Write("\n---\n");
+    
+      for (int i = 0; i<=numbN-1; i++){
+        if (arrayB[i] != 0){
+          Console.Write("[{0}]", arrayB[i]);
+        }
+      }
+    
+      Console.ReadKey();
+    }
+  }
+}
+          </code>
+        </section>
+        <section>
+          <h2 id="experience">Experience</h2>
+          <hr>
+          <p>I don't have any experience at working on a company. I works only on my own projects.</p>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
