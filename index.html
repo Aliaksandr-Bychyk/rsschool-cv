@@ -10,7 +10,7 @@
   </head>
   <body>
     <header class="header-bar">
-      <img class="header-photo" src="images/photo.jpg" alt="photo" height="100%" width="100%">
+      <img class="header-photo" src="images/photo.jpg" alt="photo">
       <h1 class="header-title">ALIAKSANDR BYCHYK</h1>
     </header>
     <div class="page-container">
@@ -132,13 +132,13 @@ namespace lab9{
     
       Console.WriteLine("A[1..{0}, 1..{1}]: ", numbN, numbM);
       Random randomGen = new Random();
-      for (int i = 0; i<=numbN-1; i++){
-        for (int j = 0; j<=numbM-1; j++){
+      for (int i = 0; i&lt;=numbN-1; i++){
+        for (int j = 0; j&lt;=numbM-1; j++){
           arrayA[i,j] = randomGen.Next(randDown,randUp);
           Console.Write("[{0}]", arrayA[i,j]);
         }
-        for (int j = 0; j<=numbM-1; j++){
-          for (int k = j+1; k<=numbM-1; k++){
+        for (int j = 0; j&lt;=numbM-1; j++){
+          for (int k = j+1; k&lt;=numbM-1; k++){
             if (arrayA[i,j] == arrayA[i,k]) {
               Console.Write(":+:");
               arrayB[i]=i+1;
@@ -150,7 +150,7 @@ namespace lab9{
     
       Console.Write("\n---\n");
     
-      for (int i = 0; i<=numbN-1; i++){
+      for (int i = 0; i&lt;=numbN-1; i++){
         if (arrayB[i] != 0){
           Console.Write("[{0}]", arrayB[i]);
         }
@@ -171,11 +171,11 @@ namespace lab9{
     </div>
     <footer>
       <a href="http://github.com/AlexanderBychyk" target="_blank">
-        <img class="footer-logo" src="images/GitHub-Mark-64px.png" alt="rs_school_js_logo" height="100%" width="100%">
+        <img class="footer-logo" src="images/GitHub-Mark-64px.png" alt="rs_school_js_logo">
       </a>
       <h1>2022</h1>
       <a href="https://rs.school/js/" target="_blank">
-        <img class="footer-logo" src="images/rs_school_js.svg" alt="rs_school_js_logo" height="100%" width="100%">
+        <img class="footer-logo" src="images/rs_school_js.svg" alt="rs_school_js_logo">
       </a>
     </footer>
   </body>
