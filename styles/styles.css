@@ -79,16 +79,20 @@ body {
   border-radius: 1px;
 }
 
-.navigation-bar { 
+.navigation-bar li { 
   padding-bottom: 0.5em;
   list-style-type: '# ';
 }
 
-.navigation-bar, 
+.navigation-bar 
 a:link, 
 a:visited { 
   color: var(--color-text-secondary);
   text-decoration: none;
+}
+
+.navigation-bar a:hover {
+  text-decoration: underline;
 }
 
 .contacts-list { 
@@ -147,6 +151,10 @@ h2 {
 
 .project-link::before { 
   content: "🔗 ";
+}
+
+.project-link:hover {
+  text-decoration: underline;
 }
 
 .code { 
