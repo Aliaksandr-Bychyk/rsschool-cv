@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Aliaksandr Bychyk</title>
+  </head>
+  <body>
+    <header class="header-bar">
+      <img class="header-photo" src="images/photo.jpg" alt="photo">
+      <h1 class="header-title">ALIAKSANDR BYCHYK</h1>
+    </header>
+    <div class="page-container">
+      <nav class="navigation-bar">
+        <h2>Navigation</h2>
+        <hr>
+        <ul>
+          <li>
+            <a href="#about_me">About me</a>
+          </li>
+          <li>
+            <a href="#aducation">Aducation</a>
+          </li>
+          <li>
+            <a href="#english">English</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#code">Code</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+        </ul>
+        <h2>Contacts</h2>
+        <hr>
+        <ul class="contacts-list">
+          <li id="icon-email">
+            <span>Email:</span><br>
+            <a href="mailto:sanya55bychyk@gmail.com" title="sanya55bychyk@gmail.com" target="_blank">sanya55bychyk@gmail.com</a>
+          </li>
+          <li id="icon-telegram">
+            <span>Telegram:</span><br>
+            <a href="https://t.me/alexander_bychyk" title="@alexander_bychyk" target="_blank">@alexander_bychyk</a>
+          </li>
+          <li id="icon-github">
+            <span>GitHub:</span><br>
+            <a href="https://github.com/AlexanderBychyk" title="AlexanderBychyk" target="_blank">AlexanderBychyk</a>
+          </li>
+          <li id="icon-discord">
+            <span>Discord:</span>
+            <span>AmazingSanya#7830</span>
+          </li>
+        </ul>
+      </nav>
+      <main class="content">
+        <section>
+          <h2 class="content-title" id="about_me">About me</h2>
+          <hr>
+          <p>I want to be a part of IT community. I think it will be interesting and funny.</p>
+          <p>I didn't finish any courses because I learn what I want. There was time when I wanted to create a computer games. So I started learn unity and c#. It didn't finished well because I didn't know what kind of game I want to create. But it was fun!</p>
+        </section>
+        <section>
+          <h2 class="content-title" id="aducation">Aducation</h2>
+          <hr>
+          <p><b>University:</b> Brest State A.S. Pushkin University</p>
+        </section>
+        <section>
+          <h2 class="content-title" id="english">English</h2>
+          <hr>
+          <p>I think it will be <b>A2</b>. I reads documentation on <i>English</i>, watches movies, serials and education tutorials on <i>English</i>. Also I can speak on it, so I think it must be <b>A2</b>.</p>
+        </section>
+        <section>
+          <h2 class="content-title" id="skills">Basic known skills</h2>
+          <hr>
+          <ul>
+            <li>
+              <span>HTML</span>
+            </li>
+            <li>
+              <span>CSS/SASS</span>
+            </li>
+            <li>
+              <span>JavaScript</span>
+            </li>
+            <li>
+              <span>Pascal</span>
+            </li>
+            <li>
+              <span>C#</span>
+            </li>
+            <li>
+              <span>React</span>
+            </li>
+            <li>
+              <span>GitHub</span>
+            </li>
+            <li>
+              <span>Visual Studio Code</span>
+            </li>
+            <li>
+              <span>NPM</span>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="content-title" id="code">Code example</h2>
+          <hr>
+          <code class="code">
+<span class="hl-1">using</span> <span class="hl-2">System</span>;
+  
+<span class="hl-1">namespace</span> <span class="hl-2">lab9</span>{
+  <span class="hl-1">class Program</span>{
+    <span class="hl-3">static</span> <span class="hl-1">void</span> <span class="hl-4">Main</span>(<span class="hl-1">string</span>[] args){
+      <span class="hl-3">Console</span>.<span class="hl-4">WriteLine</span>(<span class="hl-2">"Дан прямоугольный массив A[1..N, 1..M]."</span>);
+      <span class="hl-3">Console</span>.<span class="hl-4">Write</span>(<span class="hl-2">"Введитче целое число N: "</span>);
+      <span class="hl-1">int</span> <span class="hl-3">numbN</span> = <span class="hl-3">int</span>.<span class="hl-4">Parse</span>(<span class="hl-3">Console</span>.<span class="hl-4">ReadLine</span>());
+      <span class="hl-3">Console</span>.<span class="hl-4">Write</span>(<span class="hl-2">"Введите число M: "</span>);
+      <span class="hl-1">int</span> <span class="hl-3">numbM</span> = <span class="hl-3">int</span>.<span class="hl-4">Parse</span>(<span class="hl-3">Console</span>.<span class="hl-4">ReadLine</span>());
+      <span class="hl-3">Console</span>.<span class="hl-4">WriteLine</span>(<span class="hl-2">"Введите диапозон [a..b]: "</span>);
+      <span class="hl-3">Console</span>.<span class="hl-4">Write</span>(<span class="hl-2">"Введите a: "</span>);
+      <span class="hl-1">int</span> <span class="hl-3">randDown</span> = <span class="hl-3">int</span>.<span class="hl-4">Parse</span>(<span class="hl-3">Console</span>.<span class="hl-4">ReadLine</span>());
+      <span class="hl-3">Console</span>.<span class="hl-4">Write</span>(<span class="hl-2">"Введите b: "</span>);
+      <span class="hl-1">int</span> <span class="hl-3">randUp</span> = <span class="hl-3">int</span>.<span class="hl-4">Parse</span>(<span class="hl-3">Console</span>.<span class="hl-4">ReadLine</span>());
+    
+      <span class="hl-1">int</span>[,] <span class="hl-3">arrayA</span> = <span class="hl-1">new int</span>[<span class="hl-3">numbN</span>, <span class="hl-3">numbM</span>];
+      <span class="hl-1">int</span>[] <span class="hl-3">arrayB</span> = <span class="hl-1">new int</span>[<span class="hl-3">numbN</span>];
+    
+      <span class="hl-3">Console</span>.<span class="hl-4">WriteLine</span>(<span class="hl-2">"A[1..{0}, 1..{1}]: "</span>, <span class="hl-3">numbN</span>, <span class="hl-3">numbM</span>);
+      <span class="hl-3">Random randomGen</span> = <span class="hl-1">new</span> <span class="hl-3">Random</span>();
+      <span class="hl-1">for</span> (<span class="hl-1">int</span> <span class="hl-3">i</span> = <span class="hl-4">0</span>; <span class="hl-3">i</span> &lt;= <span class="hl-3">numbN</span> <span class="hl-1">-</span> <span class="hl-4">1</span>; <span class="hl-3">i</span>++){
+        <span class="hl-1">for</span> (<span class="hl-1">int</span> <span class="hl-3">j</span> = <span class="hl-4">0</span>; <span class="hl-3">j</span> &lt;= <span class="hl-3">numbM</span> <span class="hl-1">-</span> <span class="hl-4">1</span>; <span class="hl-3">j</span>++){
+          <span class="hl-3">arrayA</span>[<span class="hl-3">i</span>,<span class="hl-3">j</span>] = <span class="hl-3">randomGen</span>.<span class="hl-4">Next</span>(<span class="hl-3">randDown</span>,<span class="hl-3">randUp</span>);
+          <span class="hl-3">Console</span>.<span class="hl-4">Write</span>(<span class="hl-2">"[{0}]"</span>, <span class="hl-3">arrayA</span>[<span class="hl-3">i</span>,<span class="hl-3">j</span>]);
+        }
+        <span class="hl-1">for</span> (<span class="hl-1">int</span> <span class="hl-3">j</span> = <span class="hl-4">0</span>; <span class="hl-3">j</span> &lt;= <span class="hl-3">numbM</span> <span class="hl-1">-</span> <span class="hl-4">1</span>; <span class="hl-3">j</span>++){    
+          <span class="hl-1">for</span> (<span class="hl-1">int</span> <span class="hl-3">k</span> = <span class="hl-4">j</span> + <span class="hl-4">1</span>; <span class="hl-3">k</span> &lt;= <span class="hl-3">numbM</span> <span class="hl-1">-</span> <span class="hl-4">1</span>; <span class="hl-3">k</span>++){
+            <span class="hl-1">if</span> (<span class="hl-3">arrayA</span>[<span class="hl-3">i</span>,<span class="hl-3">j</span>] <span class="hl-1">==</span> <span class="hl-3">arrayA</span>[<span class="hl-3">i</span>,<span class="hl-3">k</span>]) {
+              <span class="hl-3">Console</span>.<span class="hl-4">Write</span>(<span class="hl-2">":+:"</span>);
+              <span class="hl-3">arrayB</span>[<span class="hl-3">i</span>] = <span class="hl-3">i</span> + <span class="hl-4">1</span>;
+            }
+          }
+        }
+        <span class="hl-3">Console</span>.<span class="hl-4">WriteLine</span>();
+      }
+    
+      <span class="hl-1">for</span> (<span class="hl-1">int</span> <span class="hl-3">i</span> = <span class="hl-4">0</span>; <span class="hl-3">i</span> &lt;= <span class="hl-3">numbN</span> <span class="hl-1">-</span> <span class="hl-4">1</span>; <span class="hl-3">i</span>++){
+        <span class="hl-1">if</span> (<span class="hl-3">arrayB</span>[<span class="hl-3">i</span>] <span class="hl-1">!=</span> <span class="hl-4">0</span>){
+          <span class="hl-3">Console</span>.<span class="hl-4">Write</span>(<span class="hl-2">"[{0}]"</span>, <span class="hl-3">arrayB</span>[<span class="hl-3">i</span>]);
+        }
+      }
+    
+      <span class="hl-3">Console</span>.<span class="hl-4">ReadKey</span>();
+    }
+  }
+}
+          </code>
+        </section>
+        <section>
+          <h2 class="content-title" id="projects">Projects</h2>
+          <hr>
+          <a class="project-link" href="https://github.com/AlexanderBychyk/rsschool-cv/blob/gh-pages/cv.md" target="_blank">RS School: CV#1. Markdown & Git</a>
+        </section>
+        <section>
+          <h2 class="content-title" id="experience">Experience</h2>
+          <hr>
+          <p>I don't have any experience at working on a company. I works only on my own projects.</p>
+        </section>
+      </main>
+    </div>
+    <footer class="footer-bar">
+      <a href="http://github.com/AlexanderBychyk" target="_blank">
+        <img class="footer-logo" src="images/github.svg" alt="github_logo">
+      </a>
+      <h2>2022</h2>
+      <a href="https://rs.school/js/" target="_blank">
+        <img class="footer-logo" src="images/rs_school_js.svg" alt="rs_school_js_logo">
+      </a>
+    </footer>
+  </body>
+</html>
