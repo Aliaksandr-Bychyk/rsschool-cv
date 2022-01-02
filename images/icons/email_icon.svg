@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="71"
+   height="55"
+   viewBox="0 0 71 55"
+   fill="none"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="email_icon.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="5.3331786"
+     inkscape:cx="60.095493"
+     inkscape:cy="46.970113"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31" />
+  <defs
+     id="defs29">
+    <clipPath
+       id="clip0">
+      <rect
+         width="71"
+         height="55"
+         fill="white"
+         id="rect26" />
+    </clipPath>
+  </defs>
+  <g
+     fill="none"
+     id="g135"
+     style="fill:#ffffff"
+     transform="matrix(8.8635094,0,0,8.8635094,-17.681056,-25.681056)">
+    <path
+       d="M 2,5.248 V 7.5 A 1.5,1.5 0 0 0 3.5,9 h 5 A 1.5,1.5 0 0 0 10,7.5 V 5.248 L 6.205,6.956 a 0.5,0.5 0 0 1 -0.41,0 z M 2.037,4.168 6,5.952 9.963,4.168 A 1.5,1.5 0 0 0 8.5,3 h -5 A 1.5,1.5 0 0 0 2.037,4.168 Z"
+       fill="#ffffff"
+       id="path133"
+       style="fill:#ffffff" />
+  </g>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="71"
+   height="55"
+   viewBox="0 0 71 55"
+   fill="none"
+   version="1.1"
+   id="svg31"
+   sodipodi:docname="telegram_icon.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.6665893"
+     inkscape:cx="8.0627339"
+     inkscape:cy="-7.687723"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg31" />
+  <defs
+     id="defs29">
+    <clipPath
+       id="clip0">
+      <rect
+         width="71"
+         height="55"
+         fill="white"
+         id="rect26" />
+    </clipPath>
+  </defs>
+  <path
+     d="M 66.148143,1.029989 3.377591,22.879411 c -4.28383254,1.55314 -4.25905051,3.710279 -0.785959,4.672203 l 16.115711,4.53798 37.287053,-21.235835 c 1.763097,-0.9683155 3.373961,-0.447407 2.049866,0.613586 L 27.834386,36.077904 h -0.0071 l 0.0071,0.0032 -1.111672,14.994511 c 1.628565,0 2.347257,-0.674306 3.260669,-1.470051 l 7.827732,-6.870886 16.282108,10.856001 c 3.002223,1.49242 5.158302,0.725438 5.905317,-2.508673 L 70.686881,5.6127104 C 71.780848,1.6531628 69.012292,-0.13965928 66.148143,1.029989 Z"
+     fill="#ffffff"
+     id="path661"
+     style="fill:#ffffff;stroke-width:3.36365" />
+</svg>
