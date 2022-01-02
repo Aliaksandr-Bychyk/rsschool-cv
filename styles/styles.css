@@ -119,6 +119,16 @@ h2 {
   text-align: justify;
   color: var(--color-text-primary);
 }
+.project-link, .project-link:visited, .project-link:link {
+  padding: 0 1em;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  margin: 1em 0;
+  display: inline-block;
+}
+.project-link::before {
+  content: "🔗 ";
+}
 code {
   display:block;
   white-space:pre-wrap;
