@@ -162,7 +162,7 @@ code {
 }
 
 #icon-email::before {
-  background-image: url("/images/icons/email_icon.svg");
+  background-image: url("../images/icons/email_icon.svg");
   background-repeat: no-repeat;
   background-size: 1em 1em;
   display: inline-block;
@@ -171,7 +171,7 @@ code {
   content: "";
 }
 #icon-telegram::before {
-  background-image: url("/images/icons/telegram_icon.svg");
+  background-image: url("../images/icons/telegram_icon.svg");
   background-repeat: no-repeat;
   background-size: 1em 1em;
   display: inline-block;
@@ -180,7 +180,7 @@ code {
   content: "";
 }
 #icon-github::before {
-  background-image: url("/images/icons/github_icon.svg");
+  background-image: url("../images/icons/github_icon.svg");
   background-repeat: no-repeat;
   background-size: 1em 1em;
   display: inline-block;
@@ -189,7 +189,7 @@ code {
   content: "";
 }
 #icon-discord::before {
-  background-image: url("/images/icons/discord_icon.svg");
+  background-image: url("../images/icons/discord_icon.svg");
   background-repeat: no-repeat;
   background-size: 1em 1em;
   display: inline-block;
