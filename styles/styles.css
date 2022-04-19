@@ -252,7 +252,7 @@ h2 {
 
   .header-title { 
     width: 7em;
-    word-break: break-word;
+    word-break: break-all;
     font-size: 1.5em;
   }
 
